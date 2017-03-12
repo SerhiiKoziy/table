@@ -1,35 +1,26 @@
 ﻿import React from 'react'
-//import _ from 'lodash'
-//import namor from 'namor'
-
 import ReactTable from 'react-table'
 
 export default () => {
- /* const data = _.map(_.range(5553), d => {
-    return {
-      firstName: namor.generate({ words: 1, numLen: 0 }),
-      lastName: namor.generate({ words: 1, numLen: 0 }),
-      age: Math.floor(Math.random() * 30)
-    }
-  })*/
+
   const data = [
     {
-      age:23,
+      age:45,
         firstName:"flight",
       lastName:"watch1"
     },
     {
-      age:24,
+      age:31,
         firstName:"flight1",
       lastName:"watch2"
     },
     {
-      age:25,
+      age:18,
         firstName:"flight2",
       lastName:"watch3"
     },
     {
-      age:26,
+      age:21,
         firstName:"flight2",
       lastName:"watch4"
     }
@@ -50,7 +41,7 @@ export default () => {
       header: 'Age',
       accessor: 'age'
     }]
-  }]
+  }];
 
   return (
     <div>

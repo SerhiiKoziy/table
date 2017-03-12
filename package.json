@@ -25,6 +25,8 @@
     "react": "15.3.1",
     "react-dom": "15.3.1",
     "react-table": "^5.3.4",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.5.2",
