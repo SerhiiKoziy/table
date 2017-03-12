@@ -1,4 +1,4 @@
-# FormsMaker
+# Structure of table 
 
 install:
 npm i

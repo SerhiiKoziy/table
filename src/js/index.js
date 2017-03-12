@@ -8,4 +8,6 @@ import 'react-table/react-table.css';
 render(
 
     <StartPage />
-  , document.getElementById('app'));
+  , document.getElementById('app')
+
+);
